@@ -7,6 +7,14 @@
     tools:context=".Menu" >
 
     <Button
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:onClick="logout"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
